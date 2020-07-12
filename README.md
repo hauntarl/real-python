@@ -1,6 +1,6 @@
 # Python Basics
 
-a repository for python fundamentals
+A Repository for Fundamentals of Python
 
 ## References
 
