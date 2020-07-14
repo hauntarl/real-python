@@ -51,3 +51,9 @@ A Repository for Fundamentals of Python
   - **[Docstring](https://www.python.org/dev/peps/pep-0257/)** convention
   - **[Documenting Python Code:](https://realpython.com/documenting-python-code/#documenting-your-python-code-base-using-docstrings)** A Complete Guide
   - Python **[function annotations](https://realpython.com/defining-your-own-python-function/#python-function-annotations)**
+
+- **Regular Expressions:**
+  - **[Metacharacters](https://realpython.com/regex-python/#metacharacters-supported-by-the-re-module)** supported by re module
+  - Online Regex tester and debugger: **[Regex 101](https://regex101.com/)**
+  - Regex **[Demystified](https://www.youtube.com/playlist?list=PL55RiY5tL51ryV3MhCbH8bLl7O_RZGUUE)**
+  - Modify Regex matching using **[Python flags](https://realpython.com/regex-python/#modified-regular-expression-matching-with-flags)**
