@@ -1,6 +1,6 @@
 # Python Basics
 
-A Repository for Fundamentals of Python
+This repository is intended to cover almost every aspect of fundamental building blocks of Python, and also is supposed to be a reference point for any specific functionality you might be looking for in Python.
 
 ## References
 
