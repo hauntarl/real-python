@@ -57,3 +57,6 @@ This repository is intended to cover almost every aspect of fundamental building
   - Online Regex tester and debugger: **[Regex 101](https://regex101.com/)**
   - Regex **[Demystified](https://www.youtube.com/playlist?list=PL55RiY5tL51ryV3MhCbH8bLl7O_RZGUUE)**
   - Modify Regex matching using **[Python flags](https://realpython.com/regex-python/#modified-regular-expression-matching-with-flags)**
+  - re-module **[functions](https://realpython.com/regex-python-part-2/#re-module-functions)**
+  - Match Object **[Methods and Attributes](https://realpython.com/regex-python-part-2/#match-object-methods-and-attributes)**
+  
