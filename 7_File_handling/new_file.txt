@@ -1,0 +1,6 @@
+Some text for my new file.
+More text for my new file.
+Line 1.
+Line 3.
+Line 3.
+New ending for my file.
