@@ -22,12 +22,12 @@ import os
 
 
 # building relative path
-file_path = os.path.join('real_python', '7_File_handling', 'file.txt')
+file_path = os.path.join('real_python', '4_IO', '4_file_handling', 'file.txt')
 print(file_path)  # windows will give back slashes
 
 # building absolute file path
-file_path = os.path.join('D:', os.sep, 'real_python',
-                         '7_File_handling', 'file.txt')
+file_path = os.path.join('D:', os.sep, 'real_python', '4_IO',
+                         '4_file_handling', 'file.txt')
 print(file_path)
 
 with open(file_path) as file:
