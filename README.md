@@ -37,6 +37,7 @@ This repository is intended to cover almost every aspect of fundamental building
   - **[while loop](https://realpython.com/python-while-loop/)**
   - Python: **[the guts of for loop](https://realpython.com/python-for-loop/#the-guts-of-the-python-for-loop)**
   - The **[range function](https://realpython.com/python-for-loop/#the-range-function)**
+  - Comprehending **[Python’s Comprehensions](https://dbader.org/blog/list-dict-set-comprehensions-in-python)**
 
 - **IO:**
   - The **[string modulo operator](https://realpython.com/python-input-output/#the-string-modulo-operator)**
@@ -59,4 +60,6 @@ This repository is intended to cover almost every aspect of fundamental building
   - Modify Regex matching using **[Python flags](https://realpython.com/regex-python/#modified-regular-expression-matching-with-flags)**
   - re-module **[functions](https://realpython.com/regex-python-part-2/#re-module-functions)**
   - Match Object **[Methods and Attributes](https://realpython.com/regex-python-part-2/#match-object-methods-and-attributes)**
-  
+
+- **More:**
+  - **[Python eval():](https://realpython.com/python-eval-function/)** Evaluate Expressions Dynamically
