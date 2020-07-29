@@ -61,5 +61,8 @@ This repository is intended to cover almost every aspect of fundamental building
   - re-module **[functions](https://realpython.com/regex-python-part-2/#re-module-functions)**
   - Match Object **[Methods and Attributes](https://realpython.com/regex-python-part-2/#match-object-methods-and-attributes)**
 
+- **OOP:**
+  - **[super()](https://realpython.com/python-super/#super-in-multiple-inheritance)** in Multiple Inheritance
+
 - **More:**
   - **[Python eval():](https://realpython.com/python-eval-function/)** Evaluate Expressions Dynamically

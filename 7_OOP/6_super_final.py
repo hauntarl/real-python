@@ -111,3 +111,4 @@ print(pyramid.area_2())
 # tutorial if new class inherits from it, but other classes are now inheritance
 # proof, meaning they are now capable of accepting the arguments which are
 # required by them and passing the rest of the arguments up the MRO.
+# Refer: https://realpython.com/python-super/#super-in-multiple-inheritance
