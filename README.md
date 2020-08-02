@@ -63,6 +63,7 @@ This repository is intended to cover almost every aspect of fundamental building
 
 - **OOP:**
   - **[super()](https://realpython.com/python-super/#super-in-multiple-inheritance)** in Multiple Inheritance
+  - **[Inheritance and Composition](https://realpython.com/inheritance-composition-python/)**: A Python OOP guide
 
 - **More:**
   - **[Python eval():](https://realpython.com/python-eval-function/)** Evaluate Expressions Dynamically
