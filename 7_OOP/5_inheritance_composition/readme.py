@@ -31,12 +31,15 @@ In the following examples we will implement:
     - explores Inheritance and Interfaces, also sheds some light on abstract
       classes, methods.
     UML: https://files.realpython.com/media/ic-initial-employee-inheritance.b5f1e65cb8d1.jpg
-    FILES: 
-        - hr.py
+    FILES: example/
+        - payroll.py
+        - employee.py
         - payroll_calculator.py
 - an employee productivity tracker:
-    -  
+    - extension of the above example
     UML: https://files.realpython.com/media/ic-class-explosion.a3d42b8c9b91.jpg
-    FILES:
-        - 
+    FILES: example/
+        - productivity.py
+        - employee.py
+        - productivity_tracker.py
 """

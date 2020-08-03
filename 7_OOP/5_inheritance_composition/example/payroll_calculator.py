@@ -1,9 +1,10 @@
 from abc import ABC, abstractmethod
-import hr
+import payroll as hr
+import employees as emp
 
-salary_employee = hr.SalaryEmployee(1, 'John Smith', 1500)
-hourly_employee = hr.HourlyEmployee(2, 'Jane Doe', 40, 15)
-commission_employee = hr.CommissionEmployee(3, 'Kevin Bacon', 1000, 250)
+salary_employee = emp.SalaryEmployee(1, 'John Smith', 1500)
+hourly_employee = emp.HourlyEmployee(2, 'Jane Doe', 40, 15)
+commission_employee = emp.CommissionEmployee(3, 'Kevin Bacon', 1000, 250)
 
 payroll_system = hr.PayrollSystem()
 payroll_system.calculate_payroll([
@@ -13,7 +14,7 @@ payroll_system.calculate_payroll([
 ])
 
 try:
-    generic_employee = hr.Employee(4, 'Generic Employee')
+    generic_employee = emp.Employee(4, 'Generic Employee')
     payroll_system.calculate_payroll([generic_employee])  # AttributeError
 except AttributeError as err:
     print(err)
