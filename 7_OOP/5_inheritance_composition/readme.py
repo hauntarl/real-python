@@ -27,19 +27,28 @@ For more Refer: https://realpython.com/inheritance-composition-python/
 
 
 In the following examples we will implement:
+
 - a small payroll calculator:
-    - explores Inheritance and Interfaces, also sheds some light on abstract
+	- explores Inheritance and Interfaces, also sheds some light on abstract
       classes, methods.
-    UML: https://files.realpython.com/media/ic-initial-employee-inheritance.b5f1e65cb8d1.jpg
-    FILES: example/
-        - payroll.py
-        - employee.py
-        - payroll_calculator.py
+  	UML: https://files.realpython.com/media/ic-initial-employee-inheritance.b5f1e65cb8d1.jpg
+  	FILES: example/
+    	- payroll.py
+    	- employees.py
+    	- payroll_calculator.py
+
 - an employee productivity tracker:
-    - extension of the above example
-    UML: https://files.realpython.com/media/ic-class-explosion.a3d42b8c9b91.jpg
-    FILES: example/
-        - productivity.py
-        - employee.py
-        - productivity_tracker.py
+  	- extension of the above example
+  	UML: https://files.realpython.com/media/ic-class-explosion.a3d42b8c9b91.jpg
+  	FILES: example/
+    	- productivity.py
+    	- employees.py
+    	- productivity_tracker.py
+
+- the diamond problem:
+	- encountering the diamond problem in multiple inheritance
+	UML: https://files.realpython.com/media/ic-diamond-problem.8e685f12d3c2.jpg
+	FILES: example/
+		- employees.py
+		- diamond.py
 """
