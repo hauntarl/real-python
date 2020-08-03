@@ -112,3 +112,7 @@ print(pyramid.area_2())
 # proof, meaning they are now capable of accepting the arguments which are
 # required by them and passing the rest of the arguments up the MRO.
 # Refer: https://realpython.com/python-super/#super-in-multiple-inheritance
+
+# NOTE: a common misconception is that super calls the parent class it is
+# inheriting from, that is simply not true, rather it searches for the next
+# __init__ method in the MRO
