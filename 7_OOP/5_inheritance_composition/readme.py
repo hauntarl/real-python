@@ -51,4 +51,5 @@ In the following examples we will implement:
 	FILES: example/
 		- employees.py
 		- diamond.py
+	REFER: https://medium.com/technology-nineleaps/python-method-resolution-order-4fd41d2fcc
 """
