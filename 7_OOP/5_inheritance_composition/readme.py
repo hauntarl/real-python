@@ -32,7 +32,8 @@ In the following examples we will implement:
 	- explores Inheritance and Interfaces, also sheds some light on abstract
       classes, methods.
   	UML: https://files.realpython.com/media/ic-initial-employee-inheritance.b5f1e65cb8d1.jpg
-  	FILES: example/
+  	FILES: 
+	  example/
     	- payroll.py
     	- employees.py
     	- payroll_calculator.py
@@ -40,7 +41,8 @@ In the following examples we will implement:
 - an employee productivity tracker:
   	- extension of the above example
   	UML: https://files.realpython.com/media/ic-class-explosion.a3d42b8c9b91.jpg
-  	FILES: example/
+  	FILES: 
+	  example/
     	- productivity.py
     	- employees.py
     	- productivity_tracker.py
@@ -48,8 +50,19 @@ In the following examples we will implement:
 - the diamond problem:
 	- encountering the diamond problem in multiple inheritance
 	UML: https://files.realpython.com/media/ic-diamond-problem.8e685f12d3c2.jpg
-	FILES: example/
+	FILES: 
+	  4_example/
 		- employees.py
 		- diamond.py
 	REFER: https://medium.com/technology-nineleaps/python-method-resolution-order-4fd41d2fcc
+
+- redesign:
+	- to avoid the diamond structure altogether, redesigning the classes
+	UML: https://files.realpython.com/media/ic-class-explosion.a3d42b8c9b91.jpg
+	FILES: 
+	  5_redesign/
+	  	- employees.py
+	  	- payroll.py
+		- productivity.py
+		- program.py
 """
