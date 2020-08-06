@@ -77,4 +77,13 @@ In the following examples we will implement:
 	FILES:
 	  3_composition/
 	  	- *
+
+- mixins:
+	- inheriting mixin class to extend functionality of classes
+	FILES: 
+		4_mixins/
+			- representations.py
+			- employees.py
+			- contacts.py
+			- program.py
 """
