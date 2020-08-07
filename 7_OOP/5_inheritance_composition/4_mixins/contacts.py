@@ -1,7 +1,8 @@
 from representations import AsDictionaryMixin
 
 
-class AddressBook:
+# singleton class
+class _AddressBook:
     def __init__(self):
         self._employee_addresses = {
             1: Address('123 Admin Road', 'Concord', 'NH', '03301'),
@@ -31,3 +32,11 @@ class Address(AsDictionaryMixin):
         if self.street2:
             street += f'\n{self.street2}'
         return f'{street}\n{self.city}, {self.state}, {self.zipcode}'
+
+
+# instantiating the singleton class
+_address_book = _AddressBook()
+
+
+def get_employee_address(employee_id):
+    return _address_book.get_employee_address(employee_id)

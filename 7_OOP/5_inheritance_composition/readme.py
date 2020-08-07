@@ -3,10 +3,14 @@ Inheritance: What common attributes and behaviors exists between real-world
 objects, In case of Python - how one class might share more or all of the same
 code with another including the attributes and methods.
 - Inheritance models an 'is-a' relationship
+- Creates a tightly coupled relationship where classes heavily rely on one 
+  another
 
 
-Composition: How are objects in real-world composed of one another.
+Composition: How are objects in real-world are composed of one another.
 - Composition models a 'has-a' relationship
+- Creates a loosely coupled relationship that supports changing runtime
+  behavior
 
 
 Interface: description of features and behaviors an object has, not the
@@ -78,12 +82,34 @@ In the following examples we will implement:
 	  3_composition/
 	  	- *
 
-- mixins:
+- mixins and further improving design with composition:
 	- inheriting mixin class to extend functionality of classes
+	- conceptually implementing singleton classes
+	- exploring @property annotation - refer employees.py
+	- adding a new LTD policy to explore how easy it becomes to add new features
+	  when using composition compared to inheritance
 	FILES: 
 		4_mixins/
-			- representations.py
-			- employees.py
-			- contacts.py
-			- program.py
+			- *
+
+
+Composition vs Inheritance:
+- Use Inheritance over Composition in Python to model a clear 'is-a' 
+  relationship
+	- Justify the relationship between derived and base class, then reverse it
+	  and try to justify it. If you can justify the relationship in both
+	  directions, then you should not use inheritance between them
+- Use Inheritance over Composition to leverage both the interface and 
+  implementation of base class
+- Use Inheritance over Composition to provide mixin features to several 
+  unrelated classes when there is only one implementation of that feature.
+- Use Composition over Inheritance that models a 'has-a' relationship that
+  leverages the implementation of the component class.
+- Use Composition over Inheritance to create components that can be reused by
+  multiple classes in Python application.
+- Use Composition over Inheritance in Python to implement groups of behaviors 
+  and policies that can be applied interchangeably to other classes to 
+  customize their behavior
+- Use Composition over Inheritance to enable run-time behavior changes without
+  affecting existing classes
 """
