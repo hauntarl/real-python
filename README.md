@@ -65,6 +65,7 @@ This repository is intended to cover almost every aspect of fundamental building
   - **[super()](https://realpython.com/python-super/#super-in-multiple-inheritance)** in Multiple Inheritance
   - **[Inheritance and Composition](https://realpython.com/inheritance-composition-python/)**: A Python OOP guide
   - **[C3 superclass linearization](https://medium.com/technology-nineleaps/python-method-resolution-order-4fd41d2fcc)** Python
+  - Operator, Function Overloading - **[A Complete Example](https://realpython.com/operator-function-overloading/#a-complete-example)**
 
 - **More:**
   - **[Python eval():](https://realpython.com/python-eval-function/)** Evaluate Expressions Dynamically
