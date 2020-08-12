@@ -67,6 +67,7 @@ This repository is intended to cover almost every aspect of fundamental building
   - **[C3 superclass linearization](https://medium.com/technology-nineleaps/python-method-resolution-order-4fd41d2fcc)** Python
   - Operator, Function Overloading - **[A Complete Example](https://realpython.com/operator-function-overloading/#a-complete-example)**
   - Python **[Data Classes](https://realpython.com/python-data-classes/)**
+  - Python **[Meta Classes](https://realpython.com/python-metaclasses/)**
 
 - **More:**
   - **[Python eval():](https://realpython.com/python-eval-function/)** Evaluate Expressions Dynamically
