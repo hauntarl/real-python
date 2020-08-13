@@ -69,5 +69,9 @@ This repository is intended to cover almost every aspect of fundamental building
   - Python **[Data Classes](https://realpython.com/python-data-classes/)**
   - Python **[Meta Classes](https://realpython.com/python-metaclasses/)**
 
+- **Decorators:**
+  - Primer on **[Python Decorators](https://realpython.com/primer-on-python-decorators/)**
+  - **[Fancy Decorators](https://realpython.com/primer-on-python-decorators/#fancy-decorators)**
+
 - **More:**
   - **[Python eval():](https://realpython.com/python-eval-function/)** Evaluate Expressions Dynamically
