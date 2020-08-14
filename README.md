@@ -72,6 +72,9 @@ This repository is intended to cover almost every aspect of fundamental building
 - **Decorators:**
   - Primer on **[Python Decorators](https://realpython.com/primer-on-python-decorators/)**
   - **[Fancy Decorators](https://realpython.com/primer-on-python-decorators/#fancy-decorators)**
+  - **[Function attributes](https://stackoverflow.com/questions/338101/python-function-attributes-uses-and-abuses)** in Python
+  - **[functools.update_wrapper()](https://docs.python.org/3/library/functools.html#functools.update_wrapper)**
+  - **[functools.lru_cache()](https://docs.python.org/3/library/functools.html#functools.lru_cache)**
 
 - **More:**
   - **[Python eval():](https://realpython.com/python-eval-function/)** Evaluate Expressions Dynamically
