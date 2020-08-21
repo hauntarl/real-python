@@ -76,5 +76,9 @@ This repository is intended to cover almost every aspect of fundamental building
   - **[functools.update_wrapper()](https://docs.python.org/3/library/functools.html#functools.update_wrapper)**
   - **[functools.lru_cache()](https://docs.python.org/3/library/functools.html#functools.lru_cache)**
 
+- **Concurrency:**
+  - **[What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ&list=LLGW1hymhJhF0qhSMYOuvmIg&index=9&t=0s)** by Philip Roberts
+  - **[Async IO in Python:](https://realpython.com/async-io-python/)** A Complete Walkthrough
+
 - **More:**
   - **[Python eval():](https://realpython.com/python-eval-function/)** Evaluate Expressions Dynamically
