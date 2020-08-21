@@ -160,9 +160,9 @@ async def async_main():
 RuntimeWarning: coroutine 'async_main' was never awaited
 
 - what is going on?
-What needs to happen is, we need to create an event loop, event loop is actually
-what's going to run all these async functions.
-What the heck is an event loop? https://www.youtube.com/watch?v=8aGhZQkoFbQ&list=LLGW1hymhJhF0qhSMYOuvmIg&index=9&t=0s
+We need to create an event loop, event loop is actually going to run all these 
+async functions. What the heck is an event loop? 
+https://www.youtube.com/watch?v=8aGhZQkoFbQ&list=LLGW1hymhJhF0qhSMYOuvmIg&index=9&t=0s
 """
 
 
@@ -176,7 +176,7 @@ async def async_main(async_func, *coroutines):
 if __name__ == '__main__':
     print()
     asyncio.run(async_main(randn))
-    # this will create the event loop, we so desperately need. It will handle
+    # this will create the event loop we so desperately need. It will handle
     # all the asynchronous tasks for us.
     # if you notice the output, you might ask, why do we even need this? It
     # still takes 3 seconds to run my code.
