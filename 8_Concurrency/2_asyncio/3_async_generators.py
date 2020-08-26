@@ -31,3 +31,4 @@ async def main():
 
 if __name__ == '__main__':
     asyncio.run(main())
+# Refer: https://realpython.com/async-io-python/#async-ios-roots-in-generators

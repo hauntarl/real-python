@@ -78,7 +78,10 @@ This repository is intended to cover almost every aspect of fundamental building
 
 - **Concurrency:**
   - **[What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ&list=LLGW1hymhJhF0qhSMYOuvmIg&index=9&t=0s)** by Philip Roberts
+  - asyncio **[Design Patterns](https://realpython.com/async-io-python/#async-io-design-patterns)**
+  - Async IO’s **[Roots in Generators](https://realpython.com/async-io-python/#async-ios-roots-in-generators)**
   - **[Async IO in Python:](https://realpython.com/async-io-python/)** A Complete Walkthrough
+  - I don't understand **[Python's Asyncio](https://lucumr.pocoo.org/2016/10/30/i-dont-understand-asyncio/)**
 
 - **More:**
   - **[Python eval():](https://realpython.com/python-eval-function/)** Evaluate Expressions Dynamically

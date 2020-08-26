@@ -58,7 +58,7 @@ async def one():
 
 
 async def work_generator(session: aiohttp.ClientSession) -> dict:
-    """Creates a worker, awaits its reponse, yields the value."""
+    """Creates a worker, awaits its response, yields the value."""
     for i in range(3):
         r = randint(1, 5)
         response = await worker(i+1, r, 'uint8', session)
@@ -79,7 +79,7 @@ async def many_for():
 async def many_gather():
     async with aiohttp.ClientSession() as session:
         responses = await asyncio.gather(
-            *(worker(i, randint(1, 5), 'uint8', session)
+            *(worker(i + 1, randint(1, 5), 'uint8', session)
               for i in range(3))
         )
         for res in responses:
@@ -119,11 +119,14 @@ worker-3
 response: {'type': 'uint8', 'length': 3, 'data': [219, 58, 120], 'success': True}
 Finished in 2.6520 secs
 
-worker-0
 worker-1
 worker-2
+worker-3
 response: {'type': 'uint8', 'length': 1, 'data': [49], 'success': True}
 response: {'type': 'uint8', 'length': 1, 'data': [52], 'success': True}
 response: {'type': 'uint8', 'length': 1, 'data': [114], 'success': True}
 Finished in 0.7996 secs
+
+Design Patterns: https://realpython.com/async-io-python/#async-io-design-patterns
+I don't understand Python's Asyncio: https://lucumr.pocoo.org/2016/10/30/i-dont-understand-asyncio/
 """
