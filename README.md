@@ -82,6 +82,7 @@ This repository is intended to cover almost every aspect of fundamental building
   - Async IO’s **[Roots in Generators](https://realpython.com/async-io-python/#async-ios-roots-in-generators)**
   - **[Async IO in Python:](https://realpython.com/async-io-python/)** A Complete Walkthrough
   - I don't understand **[Python's Asyncio](https://lucumr.pocoo.org/2016/10/30/i-dont-understand-asyncio/)**
+  - What Is the Python **[Global Interpreter Lock (GIL)?](https://realpython.com/python-gil/)**
 
 - **More:**
   - **[Python eval():](https://realpython.com/python-eval-function/)** Evaluate Expressions Dynamically
