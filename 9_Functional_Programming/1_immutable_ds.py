@@ -1,18 +1,18 @@
 """
 What is Functional Programming?
-A technique that avoids side-effects in your program by performing computations
-mainly through the evaluations of functions and it'll rely heavily on immutable
-data structures as well.
+- A technique that avoids side-effects in your program by performing 
+  computations mainly through the evaluations of functions and it'll rely 
+  heavily on immutable data structures as well.
 
 Why do we need to rely on immutable data structures?
-Consider a situation where you need to save a list of scientists along with some
-basic information regarding them, like-name, field, born, noble winner.
-If we decided to create a list of dictionary to hold these elements we are 
-exposed to certain issues like:
-1. the values can be modified which can corrupt the data.
-2. we can introduces typos while entering the data into dictionary
-3. we cannot perform concurrent operations on the dictionary as the data is
-   susceptible to change.
+- Consider a situation where you need to save a list of scientists along with 
+  some basic information regarding them, like-name, field, born, noble winner.
+- If we decided to create a list of dictionary to hold these elements we are 
+  exposed to certain issues like:
+  1. the values can be modified which can corrupt the data.
+  2. we can introduces typos while entering the data into dictionary
+  3. we cannot perform concurrent operations on the dictionary as the data is
+     susceptible to change.
 
 To overcome these issues, we can use something called as a namedtuple which 
 comes from collections module.

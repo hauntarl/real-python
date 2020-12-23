@@ -33,7 +33,7 @@ print(f'Total age using sum(): {sum([x["age"] for x in name_age])}\n')
 
 """
 Why use the reduce function at all?
-reduce() function can go above and beyond in terms of what it can do.
+- reduce() function can go above and beyond in terms of what it can do.
 
 One such operation we can do is, group scientists by their fields
 """
@@ -53,10 +53,10 @@ pprint(groupby_field)
 print()
 
 """
-We currently made use of an external function instead of lambda because the
-operations were a bit lengthy, but it defeats the whole purpose of clean and
-concise expression that handles it all.
-We can achieve that by using defaultdict class which comes from collections
+- We currently made use of an external function instead of lambda because the
+  operations were a bit lengthy, but it defeats the whole purpose of clean and
+  concise expression that handles it all.
+- We can achieve that by using defaultdict class which comes from collections
 """
 groupby_field = reduce(
     # lambda acc, val: acc[val.field].append(val.name),
