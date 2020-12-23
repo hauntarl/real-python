@@ -28,7 +28,7 @@ base_url = 'http://qrng.anu.edu.au/API/jsonI.php'
 
 
 async def worker(
-    name: '<any>',
+    name: 'any',
     length: int,
     data_type: str,
     session: aiohttp.ClientSession
