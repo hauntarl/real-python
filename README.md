@@ -86,5 +86,10 @@ Reference: **[Real Python](https://realpython.com/)**
   - I don't understand **[Python's Asyncio](https://lucumr.pocoo.org/2016/10/30/i-dont-understand-asyncio/)**
   - What Is the Python **[Global Interpreter Lock (GIL)?](https://realpython.com/python-gil/)**
 
+- **Setup:**
+  - **[An Effective Python Environment:](https://realpython.com/effective-python-environment/)**  Making Yourself at Home
+  - **[What Is Pip?](https://realpython.com/what-is-pip/)** A Guide for New Pythonistas
+  - **[Pipenv:](https://realpython.com/pipenv-guide/)** A Guide to the New Python Packaging Tool
+
 - **More:**
   - **[Python eval():](https://realpython.com/python-eval-function/)** Evaluate Expressions Dynamically
