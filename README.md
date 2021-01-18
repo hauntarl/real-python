@@ -92,5 +92,8 @@ Reference: **[Real Python](https://realpython.com/)**
   - **[Pipenv:](https://realpython.com/pipenv-guide/)** A Guide to the New Python Packaging Tool
   - Managing Multiple Python Versions With **[pyenv](https://realpython.com/intro-to-pyenv/)**
 
+- **Testing:**
+  - Effective Python Testing With **[Pytest](https://realpython.com/pytest-python-testing/)**
+
 - **More:**
   - **[Python eval():](https://realpython.com/python-eval-function/)** Evaluate Expressions Dynamically
