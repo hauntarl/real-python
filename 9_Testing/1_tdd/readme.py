@@ -4,5 +4,5 @@
 . to install testing module pytest - 'pip install pytest'
 . to execute all the tests - 'python -m pytest -v'
 . to perform the test coverage - 'pip install pytest-cov'
-  run - 'python -m pytest -v -cov'
+  run - 'python -m pytest -v --cov=ds/'
 """
