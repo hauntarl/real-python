@@ -95,5 +95,11 @@ Reference: **[Real Python](https://realpython.com/)**
 - **Testing:**
   - Effective Python Testing With **[Pytest](https://realpython.com/pytest-python-testing/)**
 
+- **Idiomatic:**
+  - **[Python Best Practices](https://realpython.com/tutorials/best-practices/)** for More Pythonic Code
+  - **[Refactoring Python Applications](https://realpython.com/python-refactoring/)** for Simplicity
+  - Python Code Quality: **[Tools & Best Practices](https://realpython.com/python-code-quality/)**
+
 - **More:**
   - **[Python eval():](https://realpython.com/python-eval-function/)** Evaluate Expressions Dynamically
+  - How to Use **[Python Lambda Functions](https://realpython.com/python-lambda/)**
