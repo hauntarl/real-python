@@ -106,3 +106,5 @@ Reference: **[Real Python](https://realpython.com/)**
   - How to Use **[Python Lambda Functions](https://realpython.com/python-lambda/)**
   - Primer on **[Python Decorators](https://realpython.com/primer-on-python-decorators/)**
   - How to Stand Out in a **[Python Coding Interview](https://realpython.com/python-coding-interview-tips/)**
+  - **[doctest](https://docs.python.org/3/library/doctest.html)** — Test interactive Python examples
+  
