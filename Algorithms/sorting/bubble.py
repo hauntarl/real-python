@@ -1,9 +1,8 @@
-from timer import timed
 from random import randint
+from timer import timed
 
 
-@timed
-def bubble(items: list):
+def sort(items: list):
     '''
     - basic idea: move the largest element in the list to the end of the list,
       then second-largest to the second-last position and so on...
@@ -23,6 +22,10 @@ def bubble(items: list):
     return items
 
 
+@timed
+def to_sort(items): sort(items)
+
+
 # Benchmarking:
-bubble([randint(1, 1000) for _ in range(1000)])
-bubble([randint(1, 1000) for _ in range(10000)])
+to_sort([randint(1, 1000) for _ in range(1000)])
+to_sort([randint(1, 1000) for _ in range(10000)])

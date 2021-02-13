@@ -1,9 +1,8 @@
-from timer import timed
 from random import randint
+from timer import timed
 
 
-@timed
-def insertion(items):
+def sort(items):
     '''
     - basic idea: starting at the second element of the list, move each item
       so that its sorted with respect to all items before it
@@ -23,6 +22,10 @@ def insertion(items):
     return items
 
 
+@timed
+def to_sort(items): sort(items)
+
+
 # Benchmarking:
-insertion([randint(1, 1000) for _ in range(1000)])
-insertion([randint(1, 1000) for _ in range(10000)])
+to_sort([randint(1, 1000) for _ in range(1000)])
+to_sort([randint(1, 1000) for _ in range(10000)])
