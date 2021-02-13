@@ -25,6 +25,12 @@ def merge(left, right):
 
 
 def sort(items):
+    '''
+    . basic idea: break the list into two halves, sort those havles recursively
+      using merge sort, then "merge" the halves together again.
+    . relies on the fact that merging two sorted lists is an O(n) operation
+    . NOTE: merge sort is stable
+    '''
     if items is None or len(items) <= 1:
         return items
 
