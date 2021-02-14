@@ -44,6 +44,7 @@ def to_sort(items): sort(items)
 
 # Testing
 items = [randint(1, 10) for _ in range(10)]
+print(items)
 print(sort(items))
 
 # Benchmarking: to test how scalable the algorithm is

@@ -59,6 +59,7 @@ def to_sort(items): sort(items, 0, len(items) - 1)
 
 # Testing
 items = [randint(1, 10) for _ in range(10)]
+print(items)
 print(sort(items, 0, len(items) - 1))
 
 # Benchmarking: to test how scalable the algorithm is
