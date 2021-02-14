@@ -32,7 +32,7 @@ def sort(items, low, high):
     if low >= high:
         return items
 
-    pivot = items[(low + high) // 2]  # selecting a pivot
+    pivot = items[randint(low, high)]  # selecting a pivot
     # initialize variables for partition
     left = low    # [low, left) - less than elements
     right = low   # [left, right) - equal to pivot
@@ -57,6 +57,10 @@ def sort(items, low, high):
 def to_sort(items): sort(items, 0, len(items) - 1)
 
 
-# # Benchmarking:
-to_sort([randint(1, 1000) for _ in range(1000)])
-to_sort([randint(1, 1000) for _ in range(10000)])
+# Testing
+items = [randint(1, 10) for _ in range(10)]
+print(sort(items, 0, len(items) - 1))
+
+# Benchmarking: to test how scalable the algorithm is
+# to_sort([randint(1, 1000) for _ in range(1000)])
+# to_sort([randint(1, 1000) for _ in range(10000)])
