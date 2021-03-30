@@ -58,10 +58,11 @@ def to_sort(items): sort(items, 0, len(items) - 1)
 
 
 # Testing
-items = [randint(1, 10) for _ in range(10)]
-print(items)
-print(sort(items, 0, len(items) - 1))
+# items = [randint(1, 10) for _ in range(10)]
+# print(items)
+# print(sort(items, 0, len(items) - 1))
 
 # Benchmarking: to test how scalable the algorithm is
-# to_sort([randint(1, 1000) for _ in range(1000)])
-# to_sort([randint(1, 1000) for _ in range(10000)])
+to_sort([randint(1, 10) for _ in range(10)])
+to_sort([randint(1, 1000) for _ in range(1000)])
+to_sort([randint(1, 1000) for _ in range(10000)])
