@@ -42,7 +42,6 @@ def merge(left, right):
     while j < len(right):
         result.append(right[j])
         j += 1
-
     return result
 
 
@@ -63,7 +62,7 @@ def sort(items):
     '''
     # NOTE: there are various other methods to find optimal bucket size based
     # on given items, for simplicity this algorithm uses a constant literal
-    bucket = 8
+    bucket = 64
 
     for i in range(0, len(items), bucket):
         insertion(items, i, min(i + bucket - 1, len(items) - 1))

@@ -20,7 +20,6 @@ def merge(left, right):
     while j < len(right):
         result.append(right[j])
         j += 1
-
     return result
 
 
