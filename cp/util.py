@@ -10,8 +10,8 @@ def timeit(func):
         res = func(*args, **kwargs)
         end = perf_counter()
         run = end - beg
-        print(f'params : {unpack_list(args)}{unpack_dict(kwargs)}\n'
-              f'result : {res}\n'
+        print(f'inp: {unpack_list(args)}{unpack_dict(kwargs)}\n'
+              f'out: {res}\n'
               f'took {run:.10f} secs\n')
         return res
 

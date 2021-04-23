@@ -11,8 +11,8 @@ def fibonacci(n: int) -> int:
     sometimes called Binet’s formula.
     f(n) = ((1 + √5)^n - (1 - √5)^n) / (2^n * √5)
     """
-    if n < 0:
-        return
+    if n < 1:
+        return 0
 
     num1 = pow(1 + sqrt5, n)
     num2 = pow(1 - sqrt5, n)
@@ -24,48 +24,48 @@ def fibonacci(n: int) -> int:
 [fibonacci(n) for n in range(11)]
 
 ''' terminal
-D:\real-python\cp>c:/pypy3.7-v7.3.3-win32/pypy3.exe d:/real-python/cp/fibonacci.py
-params : 0
-result : 0
-took 0.0000472000 secs
+D:\real-python>c:/pypy3.7-v7.3.3-win32/pypy3.exe d:/real-python/cp/fibonacci.py
+inp: 0
+out: 0
+took 0.0000021000 secs
 
-params : 1
-result : 1
-took 0.0000225000 secs
+inp: 1
+out: 1
+took 0.0000651000 secs
 
-params : 2
-result : 1
-took 0.0000209000 secs
+inp: 2
+out: 1
+took 0.0000216000 secs
 
-params : 3
-result : 2
-took 0.0000456000 secs
+inp: 3
+out: 2
+took 0.0000186000 secs
 
-params : 4
-result : 3
-took 0.0000148000 secs
+inp: 4
+out: 3
+took 0.0000198000 secs
 
-params : 5
-result : 5
-took 0.0000159000 secs
+inp: 5
+out: 5
+took 0.0000179000 secs
 
-params : 6
-result : 8
-took 0.0000210000 secs
+inp: 6
+out: 8
+took 0.0000161000 secs
 
-params : 7
-result : 13
-took 0.0000174000 secs
+inp: 7
+out: 13
+took 0.0000158000 secs
 
-params : 8
-result : 21
-took 0.0000255000 secs
+inp: 8
+out: 21
+took 0.0000383000 secs
 
-params : 9
-result : 34
-took 0.0000246000 secs
+inp: 9
+out: 34
+took 0.0000660000 secs
 
-params : 10
-result : 55
-took 0.0000242000 secs
+inp: 10
+out: 55
+took 0.0000178000 secs
 '''
