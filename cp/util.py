@@ -12,7 +12,7 @@ def timeit(func):
         run = end - beg
         print(f'inp: {unpack_list(args)}{unpack_dict(kwargs)}\n'
               f'out: {res}\n'
-              f'took {run:.10f} secs\n')
+              f'Function {func.__name__!r} took {run:.10f} secs\n')
         return res
 
     return wrapper_timeit
