@@ -1,26 +1,23 @@
 from functools import wraps
 from time import perf_counter
+from sys import stdout
 
 
-def timeit(func):
+def timeit(func, file=stdout):
     """Print the runtime of the decorated function"""
     @wraps(func)
     def wrapper_timeit(*args, **kwargs):
+        print(f"run {func.__name__}({_unpack(args, kwargs)})", file=file)
         beg = perf_counter()
         res = func(*args, **kwargs)
         end = perf_counter()
-        run = end - beg
-        print(f'inp: {unpack_list(args)}{unpack_dict(kwargs)}\n'
-              f'out: {res}\n'
-              f'Function {func.__name__!r} took {run:.10f} secs\n')
+        print(f"got '{res}' in {end - beg:.10f} secs.\n", file=file)
         return res
 
     return wrapper_timeit
 
 
-def unpack_list(data: list) -> str:
-    return ' '.join(f'{item}' for item in data)
-
-
-def unpack_dict(data: dict) -> str:
-    return ' '.join(f'{key}={val}' for key, val in data.items())
+def _unpack(args: list, kwargs: dict) -> str:
+    args = [f'{e}' for e in args]
+    args.extend([f'{k}={v}' for k, v in kwargs.items()])
+    return ', '.join(args)

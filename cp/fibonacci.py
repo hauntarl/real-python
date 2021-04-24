@@ -22,50 +22,37 @@ def fibonacci(n: int) -> int:
 
 # print the first 11 fibonacci numbers
 [fibonacci(n) for n in range(11)]
-
 ''' terminal
-D:\real-python\cp>c:/pypy3.7-v7.3.3-win32/pypy3.exe d:/real-python/cp/fibonacci.py
-inp: 0
-out: 0
-Function 'fibonacci' took 0.0001656000 secs
+run fibonacci(0)
+got '0' in 0.0000054000 secs.
 
-inp: 1
-out: 1
-Function 'fibonacci' took 0.0007225000 secs
+run fibonacci(1)
+got '1' in 0.0000920000 secs.
 
-inp: 2
-out: 1
-Function 'fibonacci' took 0.0000537000 secs
+run fibonacci(2)
+got '1' in 0.0000246000 secs.
 
-inp: 3
-out: 2
-Function 'fibonacci' took 0.0000206000 secs
+run fibonacci(3)
+got '2' in 0.0000230000 secs.
 
-inp: 4
-out: 3
-Function 'fibonacci' took 0.0000146000 secs
+run fibonacci(4)
+got '3' in 0.0000162000 secs.
 
-inp: 5
-out: 5
-Function 'fibonacci' took 0.0000341000 secs
+run fibonacci(5)
+got '5' in 0.0000521000 secs.
 
-inp: 6
-out: 8
-Function 'fibonacci' took 0.0000275000 secs
+run fibonacci(6)
+got '8' in 0.0001299000 secs.
 
-inp: 7
-out: 13
-Function 'fibonacci' took 0.0000267000 secs
+run fibonacci(7)
+got '13' in 0.0000853000 secs.
 
-inp: 8
-out: 21
-Function 'fibonacci' took 0.0000231000 secs
+run fibonacci(8)
+got '21' in 0.0000172000 secs.
 
-inp: 9
-out: 34
-Function 'fibonacci' took 0.0000585000 secs
+run fibonacci(9)
+got '34' in 0.0000311000 secs.
 
-inp: 10
-out: 55
-Function 'fibonacci' took 0.0000251000 secs
+run fibonacci(10)
+got '55' in 0.0000254000 secs.
 '''
