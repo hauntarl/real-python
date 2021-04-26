@@ -13,8 +13,8 @@ All the benchmarking results are generated using [PyPy - Python Interpreter](htt
 
 ## Examples
 
-- *fibonacci*.py
-- *max_subarray_sum*.py
+- *[fibonacci.py](https://github.com/hauntarl/real-python/blob/master/cp/fibonacci.py)*
+- *[max_subarray_sum.py](https://github.com/hauntarl/real-python/blob/master/cp/max_subarray_sum.py)*
 
 ### Time Complexity - Estimating efficiency
 
@@ -23,7 +23,7 @@ implementing the algorithm, that it is efficient enough for the problem. The
 starting point for estimations is the fact that a modern computer can perform
 some hundreds of millions of operations in a second.
 
-For example, assume that the time limit for a problem is one second and the input size is ```n = 10^5```. If the time complexity is ```O(n^2)```, the algorithm will perform about ```(10^5)^2 = 10^10``` operations. This should take at least some **tens of seconds**, so the algorithm seems to be too slow for solving the problem.
+For example, assume that the time limit for a problem is one second and the input size is `n = 10^5`. If the time complexity is `O(n^2)`, the algorithm will perform about `(10^5)^2 = 10^10` operations. This should take at least some **tens of seconds**, so the algorithm seems to be too slow for solving the problem.
 
 On the other hand, given the input size, we can try to guess the required time
 complexity of the algorithm that solves the problem. The following table contains
@@ -31,9 +31,9 @@ some useful estimates assuming a **time limit of one second**.
 
 Input size | Required time complexity
 ---------- | ------------------------
-```n ≤ 10``` | **O(n!)**
-```n ≤ 20``` | **O(2^n)**
-```n ≤ 500``` | **O(n^3)**
-```n ≤ 5000``` | **O(n^2)**
-```n ≤ 10^6``` | **O(n log n) or O(n)**
-```n is large``` | **O(1) or O(log n)**
+`n ≤ 10` | **O(n!)**
+`n ≤ 20` | **O(2^n)**
+`n ≤ 500` | **O(n^3)**
+`n ≤ 5000` | **O(n^2)**
+`n ≤ 10^6` | **O(n log n) or O(n)**
+`n is large` | **O(1) or O(log n)**
