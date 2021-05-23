@@ -25,9 +25,10 @@ def weird_algorithm(n: int) -> None:
     print(n)
 
 
-weird_algorithm(3)
-weird_algorithm(7)
-weird_algorithm(15)
+if __name__ == '__main__':
+    weird_algorithm(3)
+    weird_algorithm(7)
+    weird_algorithm(15)
 ''' terminal
 run weird_algorithm(3)
 3 10 5 16 8 4 2 1
