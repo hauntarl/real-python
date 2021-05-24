@@ -18,6 +18,6 @@ def timeit(func, file=stdout):
 
 
 def _unpack(args: list, kwargs: dict) -> str:
-    args = [f'{e}' for e in args]
-    args.extend([f'{k}={v}' for k, v in kwargs.items()])
+    args = [f'{e!r}' for e in args]
+    args.extend([f'{k}={v!r}' for k, v in kwargs.items()])
     return ', '.join(args)
