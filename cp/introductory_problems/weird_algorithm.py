@@ -13,6 +13,7 @@ def weird_algorithm(n: int) -> None:
     3 → 10 → 5 → 16 → 8 → 4 → 2 → 1
 
     Simulate the execution of the algorithm for a given value of n.
+
     Constraints: 1 ≤ n ≤ 10^6
 
     Example
