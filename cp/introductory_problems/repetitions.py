@@ -12,7 +12,8 @@ def repetitions(seq: str) -> int:
 
     The only input line contains a string of n characters.
     Print one integer, the length of the longest repetition.
-    Constraints: 1≤n≤106
+
+    Constraints: 1 ≤ n ≤ 10^6
 
     Example
     Input: ATTCGGGA
