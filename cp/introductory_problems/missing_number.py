@@ -10,14 +10,8 @@ def missing_number(n: str, terms: str) -> int:
     the missing number.
 
     Print the missing number.
-    Constraints: 2 ≤ n ≤ 2 * 10^5
 
-    Example
-    Input:
-    5
-    2 3 1 5
-    Output:
-    4
+    Constraints: 2 ≤ n ≤ 2 * 10^5
     """
     n = int(n)
     s = n * (n + 1) >> 1
