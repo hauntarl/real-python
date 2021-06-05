@@ -5,6 +5,7 @@ from util import timeit
 def missing_number(n: str, terms: str) -> int:
     """
     [Easy] https://cses.fi/problemset/task/1083/
+    [Solution] https://cses.fi/paste/e83a55e0c5f903922194a9/
 
     You are given all numbers between 1,2,…,n except one. Your task is to find 
     the missing number.
