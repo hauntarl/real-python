@@ -6,7 +6,7 @@ y, n = 'YES', 'NO'
 @timeit
 def coin_piles(a: int, b: int) -> str:
     """
-    [Easy] https://cses.fi/problemset/task/1754
+    [Medium] https://cses.fi/problemset/task/1754
     [Solution] https://cses.fi/paste/77351c7897fe6a7422cc1c/
 
     You have two coin piles containing a and b coins. On each move, you can 
