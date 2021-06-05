@@ -5,6 +5,7 @@ from util import timeit
 def increasing_array(_: str, arr: str) -> int:
     """
     [Easy] https://cses.fi/problemset/task/1094/
+    [Solution] https://cses.fi/paste/62bacbbc4f607e2b21a351/
 
     You are given an array of n integers. You want to modify the array so that 
     it is increasing, i.e., every element is at least as large as the previous 
