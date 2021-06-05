@@ -10,6 +10,7 @@ class Board:
 def two_knights(n: int) -> tuple:
     """
     [Medium] https://cses.fi/problemset/task/1072
+    [Solution] https://cses.fi/paste/f79701a140ee5c27220d5b/
 
     Your task is to count for k=1,2,…,n the number of ways two knights can be 
     placed on a k×k chessboard so that they do not attack each other.
