@@ -5,6 +5,7 @@ from util import timeit
 def permutations(n: str) -> None:
     """
     [Easy] https://cses.fi/problemset/task/1070
+    [Solution] https://cses.fi/paste/b5fbcb769d9b7cbc21a5ff/
 
     A permutation of integers 1,2,…,n is called beautiful if there are no 
     adjacent elements whose difference is 1.
