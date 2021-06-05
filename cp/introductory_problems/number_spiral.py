@@ -4,6 +4,7 @@ from util import timeit
 def number_spiral(*tests) -> list:
     """
     [Easy] https://cses.fi/problemset/task/1071
+    [Solution] https://cses.fi/paste/4877d985323f074a21baae/
 
     A number spiral is an infinite grid whose upper-left square has number 1. 
     Here are the first five layers of the spiral:
