@@ -1,13 +1,11 @@
 from util import timeit
 
-y, n = 'YES', 'NO'
-
 
 @timeit
-def coin_piles(a: int, b: int) -> str:
+def coin_piles(t: tuple) -> str:
     """
     [Medium] https://cses.fi/problemset/task/1754
-    [Solution] https://cses.fi/paste/77351c7897fe6a7422cc1c/
+    [Solution] https://cses.fi/paste/61697edb44edc7a922cce0/
 
     You have two coin piles containing a and b coins. On each move, you can 
     either remove one coin from the left pile and two coins from the right 
@@ -24,56 +22,48 @@ def coin_piles(a: int, b: int) -> str:
     . 1 ≤ t ≤ 10^5
     . 0 ≤ a, b ≤ 10^9
     """
-    a, b = max(a, b), min(a, b)
-    c = 2 * b
-    if a > c:
-        return n
-    if a == c:
-        return y
-
-    s = a % 3 + b % 3
-    return y if s == 0 or s == 3 else n
+    return 'YES' if sum(t) % 3 == 0 and max(t) <= 2*min(t) else 'NO'
 
 
 if __name__ == '__main__':
-    coin_piles(0, 0)
-    coin_piles(0, 3)
-    coin_piles(1, 1)
-    coin_piles(1, 2)
-    coin_piles(3, 3)
-    coin_piles(6, 6)
-    coin_piles(2, 4)
-    coin_piles(3, 6)
-    coin_piles(4, 8)
-    coin_piles(11, 4)
+    coin_piles((0, 0))
+    coin_piles((0, 3))
+    coin_piles((1, 1))
+    coin_piles((1, 2))
+    coin_piles((3, 3))
+    coin_piles((6, 6))
+    coin_piles((2, 4))
+    coin_piles((3, 6))
+    coin_piles((4, 8))
+    coin_piles((11, 4))
 ''' terminal
-run coin_piles(0, 0)
-got YES in 0.0000149000 secs.
+run coin_piles((0, 0))
+got YES in 0.0000452000 secs.
 
-run coin_piles(0, 3)
-got NO in 0.0000085000 secs.
+run coin_piles((0, 3))
+got NO in 0.0000141000 secs.
 
-run coin_piles(1, 1)
-got NO in 0.0000294000 secs.
+run coin_piles((1, 1))
+got NO in 0.0000253000 secs.
 
-run coin_piles(1, 2)
-got YES in 0.0000142000 secs.
+run coin_piles((1, 2))
+got YES in 0.0000285000 secs.
 
-run coin_piles(3, 3)
-got YES in 0.0000389000 secs.
+run coin_piles((3, 3))
+got YES in 0.0000277000 secs.
 
-run coin_piles(6, 6)
-got YES in 0.0000171000 secs.
+run coin_piles((6, 6))
+got YES in 0.0000147000 secs.
 
-run coin_piles(2, 4)
-got YES in 0.0000092000 secs.
+run coin_piles((2, 4))
+got YES in 0.0000524000 secs.
 
-run coin_piles(3, 6)
-got YES in 0.0000089000 secs.
+run coin_piles((3, 6))
+got YES in 0.0000151000 secs.
 
-run coin_piles(4, 8)
-got YES in 0.0000096000 secs.
+run coin_piles((4, 8))
+got YES in 0.0000137000 secs.
 
-run coin_piles(11, 4)
-got NO in 0.0001180000 secs.
+run coin_piles((11, 4))
+got NO in 0.0000144000 secs.
 '''
