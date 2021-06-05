@@ -5,6 +5,7 @@ from util import timeit
 def bit_strings(n: int) -> int:
     """
     [Easy] https://cses.fi/problemset/task/1617/
+    [Solution] https://cses.fi/paste/7b6a02a0d99b6e2022b83f/
 
     Your task is to calculate the number of bit strings of length n.
 
