@@ -5,6 +5,7 @@ from util import timeit
 def weird_algorithm(n: int) -> None:
     """
     [Easy] https://cses.fi/problemset/task/1068/
+    [Solution] https://cses.fi/paste/658ec88d6edc689f217b7f/
 
     Consider an algorithm that takes as input a positive integer n. If n is 
     even, the algorithm divides it by two, and if n is odd, the algorithm 
