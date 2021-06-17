@@ -30,11 +30,11 @@ if __name__ == '__main__':
     bit_strings(15)
 ''' terminal
 run bit_strings(3)
-got 8 in 0.0000113000 secs.
+got 8 in 0.0000288000 secs.    
 
 run bit_strings(7)
-got 128 in 0.0000061000 secs.
+got 128 in 0.0000046000 secs.  
 
 run bit_strings(15)
-got 32768 in 0.0000057000 secs.
+got 32768 in 0.0000051000 secs.
 '''
