@@ -37,20 +37,20 @@ if __name__ == '__main__':
 
 ''' terminal
 run trailing_zeros(20)
-got 4 in 0.0000254000 secs.
+got 4 in 0.0000219000 secs.       
 
-run trailing_zeros(11)     
-got 2 in 0.0000072000 secs.
+run trailing_zeros(11)
+got 2 in 0.0000067000 secs.       
 
 run trailing_zeros(5)
-got 1 in 0.0000588000 secs.
+got 1 in 0.0000068000 secs.       
 
 run trailing_zeros(395)
-got 97 in 0.0000075000 secs.
+got 97 in 0.0000071000 secs.      
 
-run trailing_zeros(374960399)
-got 93740092 in 0.0000121000 secs.
+run trailing_zeros(374960399)     
+got 93740092 in 0.0000095000 secs.
 
 run trailing_zeros(100000000)
-got 24999999 in 0.0000103000 secs.
+got 24999999 in 0.0000100000 secs.
 '''
