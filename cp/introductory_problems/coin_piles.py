@@ -38,32 +38,32 @@ if __name__ == '__main__':
     coin_piles((11, 4))
 ''' terminal
 run coin_piles((0, 0))
-got YES in 0.0000452000 secs.
+got YES in 0.0000512000 secs.
 
 run coin_piles((0, 3))
-got NO in 0.0000141000 secs.
+got NO in 0.0000194000 secs.
 
 run coin_piles((1, 1))
-got NO in 0.0000253000 secs.
+got NO in 0.0000142000 secs.
 
 run coin_piles((1, 2))
-got YES in 0.0000285000 secs.
+got YES in 0.0000266000 secs.
 
 run coin_piles((3, 3))
-got YES in 0.0000277000 secs.
+got YES in 0.0000214000 secs.
 
 run coin_piles((6, 6))
-got YES in 0.0000147000 secs.
+got YES in 0.0000230000 secs.
 
 run coin_piles((2, 4))
-got YES in 0.0000524000 secs.
+got YES in 0.0000463000 secs.
 
 run coin_piles((3, 6))
-got YES in 0.0000151000 secs.
+got YES in 0.0000203000 secs.
 
 run coin_piles((4, 8))
-got YES in 0.0000137000 secs.
+got YES in 0.0000235000 secs.
 
 run coin_piles((11, 4))
-got NO in 0.0000144000 secs.
+got NO in 0.0000261000 secs.
 '''
