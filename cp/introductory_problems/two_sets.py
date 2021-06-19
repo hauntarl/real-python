@@ -5,7 +5,7 @@ from util import timeit
 def two_sets(num: int) -> tuple:
     """
     [Easy] https://cses.fi/problemset/task/1092
-    [Solution] https://cses.fi/paste/cf98753d4296e6172416de/
+    [Solution] https://cses.fi/paste/c902e83ffcb2ff1c2424f6/
 
     Your task is to divide the numbers 1,2,…,n into two sets of equal sum.
 
@@ -32,21 +32,19 @@ def two_sets(num: int) -> tuple:
 
     net >>= 1
     one = []
-    cur, beg, end = 0, 1, num
+    cur, beg = 0, 1
     if net % num == 0:
         one.append(num)
         cur += num
-        end -= 1
     else:
         num += 1
 
     while cur != net:
-        one.extend((beg, end))
+        one.extend((beg, num - beg))
         cur += num
         beg += 1
-        end -= 1
 
-    return (tuple(one), tuple(range(beg, end + 1)))
+    return (tuple(one), tuple(range(beg, num - beg + 1)))
 
 
 if __name__ == '__main__':
